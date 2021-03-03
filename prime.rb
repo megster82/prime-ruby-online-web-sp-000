@@ -4,7 +4,9 @@ def prime?(integer)
   elsif 
     (2..integer - 1).each do |i|
       if integer % 1  == 0 
-    return false 
+    return false
+    end 
+  end 
   else
     return true 
   end
